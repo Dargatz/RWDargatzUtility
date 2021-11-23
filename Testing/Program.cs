@@ -9,7 +9,7 @@ namespace Testing
     {
         static void Main(string[] args)
         {
-            var parser = new FileParser(FileRetrieval.getDataFile("TestData.txt"), "File");
+            var parser = new FileParser(FileRetrieval.getDataFile("TestData.mrf"), "File");
             var rand = new Random();
 
 
