@@ -1,0 +1,13 @@
+﻿
+
+FileUniqueId=ASDLKFJASL235346
+
+RangeTest=2...9
+SingleTest= 3467
+
+
+Food {
+	Ref=WATERMELON
+	
+	Calories=100
+}

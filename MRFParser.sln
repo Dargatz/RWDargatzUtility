@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRFParser", "MRFParser\MRFParser.csproj", "{D533642D-42D3-4BDD-9BE4-841FC1F9F124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{9E479A1E-B8E6-45DD-A6B9-811A10D5F569}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D533642D-42D3-4BDD-9BE4-841FC1F9F124} = {D533642D-42D3-4BDD-9BE4-841FC1F9F124}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D533642D-42D3-4BDD-9BE4-841FC1F9F124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D533642D-42D3-4BDD-9BE4-841FC1F9F124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D533642D-42D3-4BDD-9BE4-841FC1F9F124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D533642D-42D3-4BDD-9BE4-841FC1F9F124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E479A1E-B8E6-45DD-A6B9-811A10D5F569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E479A1E-B8E6-45DD-A6B9-811A10D5F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E479A1E-B8E6-45DD-A6B9-811A10D5F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E479A1E-B8E6-45DD-A6B9-811A10D5F569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D1A29A1-0FF0-4F39-A6C1-97D07BF92690}
+	EndGlobalSection
+EndGlobal
