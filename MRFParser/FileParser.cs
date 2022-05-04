@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using MRFParser.ValueTypes;
+using RWDargatzUtility.MRFParser.ValueTypes;
 
-namespace MRFParser
+namespace RWDargatzUtility.MRFParser
 {
     public class FileParser
     {
@@ -12,7 +12,7 @@ namespace MRFParser
         private const char _labelMarker = '=';
         private const char _sectionStart = '{';
         private const char _sectionEnd = '}';
-        private const char _separator = ':';
+        private const char _separator = ',';
         private const string _commentStarter = "//";
         private const string _dataStart = "[";
         private const string _dataEnd = "]";

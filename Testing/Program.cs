@@ -1,9 +1,9 @@
 ﻿using System;
-using MRFParser;
-using MRFParser.ValueTypes;
-using Testing.Utility;
+using RWDargatzUtility.MRFParser;
+using RWDargatzUtility.MRFParser.ValueTypes;
+using RWDargatzUtility.Testing.Utility;
 
-namespace Testing
+namespace RWDargatzUtility.Testing
 {
     class Program
     {
@@ -17,6 +17,9 @@ namespace Testing
             Console.WriteLine(parser.FindRequiredInt("RangeTest").Dispense(rand));
             Console.WriteLine(parser.FindRequiredInt("SingleTest").Dispense(rand));
 
+            var seedArray = parser.FindSection("FOOD").FindRequiredIntArray("Seeds");
+            foreach (MRFInteger i in seedArray) Console.WriteLine(i.Dispense(rand));
+
             DesignTesting(parser);
 
 
@@ -26,7 +29,7 @@ namespace Testing
 
         public static void DesignTesting(FileParser parser)
         {
-            var tester = new TestDesign(parser);
+            
         }
 
         public static void TestParsingNumbers()

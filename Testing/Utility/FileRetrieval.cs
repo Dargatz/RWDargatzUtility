@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Testing.Utility
+namespace RWDargatzUtility.Testing.Utility
 {
     public static class FileRetrieval
     {

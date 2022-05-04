@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MRFParser.Utility
+namespace RWDargatzUtility.MRFParser.Utility
 {
     public static class ValueUtility
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MRFParser.Utility;
+using RWDargatzUtility.MRFParser.Utility;
 
-namespace MRFParser.ValueTypes
+namespace RWDargatzUtility.MRFParser.ValueTypes
 {
     public struct MRFInteger
     {

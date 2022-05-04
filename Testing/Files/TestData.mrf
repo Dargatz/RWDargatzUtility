@@ -8,6 +8,6 @@ SingleTest= 3467
 
 Food {
 	Ref=WATERMELON
-	
+	Seeds=5,4,9
 	Calories=100
 }
